@@ -1,0 +1,144 @@
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	*{
+		top: 0;
+		left:0;
+		box-sizing: border-box;
+		font-family: 'Source Sans Pro', sans-serif;
+		
+	}
+	html{
+		overflow-x: hidden;
+
+	}
+	img{
+		float: right;
+		min-width: 140px;
+		width: 30%;
+		margin: 2vh 1vw;
+		padding-left:1vw ;
+	}
+	li, ul, h1{
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		font-weight: normal;
+		box-sizing: border-box;
+	}
+	h1{
+		font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+		font-weight: bold;
+	}
+
+
+	p{
+		margin: 0;
+		padding: 0;
+		
+	}
+	body{
+		background-color: #ffffff;
+		margin: 0;
+	}
+	.box1{
+		
+		color: black;
+		margin: 10px;
+		margin-top: 5vh;
+	}
+	.box1 p{
+		font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+		font-family: sans-serif;
+		line-height:2em;
+
+	}
+	.box2{
+		
+		color: black;
+		margin: 10px;
+	}
+	.box2 p{
+		font-size: clamp(0.8rem, 2.5vw, 1rem);
+		font-family: sans-serif;
+		font-weight: normal;
+		word-spacing: 0.5em;
+	}
+	
+	.nav{
+		background-image: url('images/banner.jpg');
+		color: white;
+		padding: 10px;
+		font-family: 'Roboto', sans-serif;
+		top: 0;
+		width: 100%;
+		line-height: 2.5rem;
+		font-size: clamp(0.6rem, 2.5vw, 1.5rem);
+		display: flex;
+		justify-content: space-between;
+
+	}
+	button{
+		background-color: yellow;
+		font-weight: bolder;
+		letter-spacing: 3px;
+		border-radius: 40px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.nav p{
+		width: 33vw;
+		font-size: clamp(0.1rem, 2.5vw, 1rem);
+		line-height: normal;
+	}
+	.nav a{
+		width: 33vw;
+		line-height: normal;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.hero{
+		text-align: right;
+		width: 33vw;
+		padding-right: 13px;
+		
+
+	}
+	li{
+		list-style: none;
+		color: white;
+		text-decoration: none;
+		line-height: normal;
+		
+		
+	}
+	a{
+		list-style: none;
+		color: white;
+		text-decoration: none;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	hr{
+		height:0.5rem;
+		background-color: black;
+		width: 100%;
+	}
+
+	.banner{
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.block{
+		float: left;
+		width: 20vw;
+		word-spacing: 20vw;
+	}
+
+	a:hover{
+		color: yellow;
+	}
+
+	
+	
