@@ -141,14 +141,11 @@
 	}
 	.sub{
     	font-family: lato;
-    	text-align: center;
+    	text-align: right;
     	margin-top: 20vh;
     	background-color: black;
     	color: white;
     	padding: 1rem;
-    	margin-left: 35vw;
-    	margin-right: 35vw;
-    	border-radius: 16px;
     }
 
 	
